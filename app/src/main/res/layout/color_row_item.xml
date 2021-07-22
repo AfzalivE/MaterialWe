@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="16dp"
-    android:layout_height="16dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
 
-</View>
+    <View
+        android:id="@+id/color_0"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_1"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_2"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_3"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_4"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_5"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_6"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_7"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_8"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_9"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_10"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_11"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:id="@+id/color_12"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+</LinearLayout>

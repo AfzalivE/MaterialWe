@@ -8,6 +8,8 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.afzaln.materialwe.ui.theme.MaterialWeTheme
 
@@ -16,6 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val accentColorGrid = findViewById<RecyclerView>(R.id.accent_colors_grid)
+        accentColorGrid.layoutManager = LinearLayoutManager(this)
         accentColorGrid.adapter = ColorAdapter()
         // setContent {
         //     MaterialWeTheme {
